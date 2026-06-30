@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "pearlphysics",
+  "version": "1.0.0",
+  "name": "Pearl Physics Predictor",
+  "description": "Calculates real-time trajectory predictions and vector geometry for physics simulation.",
+  "authors": [ "Expert Developer" ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/pearlphysics/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.pearlphysics.PearlPhysicsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.11",
+    "java": "21",
+    "fabric-api": "*"
+  }
+}
